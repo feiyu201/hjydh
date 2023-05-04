@@ -173,5 +173,3 @@ function smoothScroll(targetId) {
     }
 }
 document.addEventListener('DOMContentLoaded', loadRecommendations);
-translate.listener.start();
-translate.execute(); //进行翻译
