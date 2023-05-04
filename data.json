@@ -1,0 +1,58 @@
+{
+  "recommendations": [
+    {
+      "id": "欢聚云旗下",
+      "title": "欢聚云旗下",
+      "items": [
+        {
+          "name": "欢聚云服务器",
+          "description": "稳定,高效,线路质量高,智能线路系统!",
+          "logo": "",
+          "url": "https://www.idc654.com/"
+        },{
+          "name": "免费证书",
+          "description": "支持在线一键申请ssl证书",
+          "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEUDuu3///8AtuwAue1c0/QAt+1a0vSZ4/gOve4Ju+4AtOzf9v31/P4iw/DS8/yf5fnE7/tNzvMsxvHw+/7t+v7k+P2U4veO4PeA3Pbp+f7h9/3Y9f3I8Pxt1/Vi1PRQz/NDzPIzyPEWv+76/v/3/f+87fqn5/mI3/Z82vb+fQDoAAAA10lEQVQ4y63T2c7CIBCGYWamUwFZurfuy7/e/xVaeySlYmJ8T78nISQgPh0xU2pGZa1EfrazHJz5an2FT3brYKoul4UqAHx5Hhqoq6VTMAc4aER9acDjEviFPd2voP9gKykGVECHkzyBsRzvI+g1jWG5BFDIPXRKjqkcTKUwPISPbvsN9XpqA9DuehXsF4g64APALAY+AHkMVm+CzToNVld1NAmwE0zaJ0DBQughAcxZ66tLAGj6f/f2NdMgewXKGHSPgOTPfG/Dh0vqlAXlluefahaLT3UDvrAKrj7jLKkAAAAASUVORK5CYII=",
+          "url": "https://ssl.webopen.ai/"
+        },
+        {
+          "name": "智能小聚",
+          "description": "ChatGTP智能机器人,可以帮你设计发言稿,聊天,写代码等一些功能",
+          "logo": "https://ai.webopen.ai/favicon.svg",
+          "url": "https://ai.webopen.ai"
+        },
+        {
+          "name": "欢聚云工具网",
+          "description": "支持多种在线工具的完整",
+          "logo": "https://www.mfykvm.com/static/images/logo.png",
+          "url": "https://www.mfykvm.com/"
+        },
+        {
+          "name": "欢聚云api",
+          "description": "稳定、快速、免费的 API 接口服务",
+          "logo": "https://api.fvdx.cn/favicon.ico",
+          "url": "https://api.fvdx.cn/"
+        },
+        {
+          "name": "github",
+          "description": "绿色地址你懂得",
+          "logo": "",
+          "url": "https://github.webopen.ai/"
+        }
+      ]
+    },{
+      "id": "好用工具集合",
+      "title": "好用工具集合",
+      "items": [
+        {
+          "name": "surge",
+          "description": "一个静态网站托管服务，可以帮助开发者快速、轻松地将自己的网站部署到互联网上。",
+          "logo": "https://surge.sh/images/logos/svg/surge-logo.svg",
+          "url": "https://surge.sh/"
+        }
+      ]
+    }
+
+  ]
+}
+
