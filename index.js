@@ -81,8 +81,7 @@ function loadRecommendations() {
 
                 const lozadObserver = lozad('.lozad');
                 lozadObserver.observe();
-                translate.listener.start();
-                translate.execute(); //进行翻译
+          
 
                 if (!isMenuCreated) { // 如果菜单还没有被创建，则创建菜单
                     const menuElement = document.getElementById('main-menu');
