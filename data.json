@@ -59,6 +59,16 @@
           "description": "JS加密/混淆/不可逆加密/压缩，保护你前端JS的安全，又提高JS的运行效率。",
           "logo": "https://www.jsjiami.com/images/x64.png",
           "url": "https://www.jsjiami.com/"
+        },{
+          "name": "多功能图片批处理",
+          "description": "在线多功能图片批量处理程序(webp2jpg),无需上传文件,可转换格式,水印,压缩",
+          "logo": "https://cdn.jsdelivr.net/gh/renzhezhilu/webp2jpg-online/favicon.png",
+          "url": "https://renzhezhilu.github.io/webp2jpg-online/"
+        },{
+          "name": "音乐分成分离的人声和器乐轨道",
+          "description": "将音乐分成分离的人声和器乐轨道。是制作卡拉OK伴奏曲目或阿卡贝拉提取器的完美选择。使用了人工智能算法且完全免费使用。",
+          "logo": "https://vocalremover.org/favicon.ico",
+          "url": "https://vocalremover.org/zh/"
         }
       ]
     }
