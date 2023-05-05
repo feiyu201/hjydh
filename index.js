@@ -183,4 +183,14 @@ function getDomain(url) {
   const parsedUrl = new URL(url);
   return `${parsedUrl.protocol}//${parsedUrl.hostname}/`;
 }
+translate.listener.renderTaskFinish = function(task){
+    var langs = translate.language.get(text);
+console.log('langs');
+    document.getElementById('search-input').style.display = 'none';
+}
 document.addEventListener('DOMContentLoaded', loadRecommendations);
+translate.listener.start();
+translate.language.setLocal('chinese_simplified');
+translate.setAutoDiscriminateLocalLanguage();	//设置用户第一次用时，自动识别其所在国家的语种进行切换
+translate.setUseVersion2(); //设置使用v2.x 版本
+translate.execute(); //执行翻译初始化操作，显示出select语言选择
