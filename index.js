@@ -185,7 +185,7 @@ function getDomain(url) {
 }
 translate.listener.renderTaskFinish = function(task){
     var langs = translate.language.get('欢聚');
-console.log(langs);
+//console.log(langs);
 if(langs!="欢聚"){
     document.getElementById('search-input').style.display = 'none';
 }else{
