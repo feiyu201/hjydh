@@ -40,67 +40,6 @@
     <meta name="twitter:description" content="设计导航,网址导航,设计资源,创意导航,创意网站导航">
     <meta name="twitter:image" content="http://dh.webopen.ai/assets/images/logo-collapsed@2x.png">
     <style>
-
-        /*进度条*/
-
-
-        body,html {
-            width:100%;
-            height:100%;
-            display:flex;
-            background:#333;
-        }
-        .g-container {
-            position:relative;
-            width:200px;
-            height:200px;
-            margin:auto;
-            border-radius:50%;
-            box-sizing:border-box;
-            border:6px solid #444;
-        }
-        .g-circle {
-            position:absolute;
-            top:-6px;
-            left:-6px;
-            bottom:-6px;
-            right:-6px;
-            border-radius:50%;
-            background:conic-gradient(#fc0 0%,transparent 40%,transparent);
-            animation:rotate 3s ease-in-out infinite;
-            transition-origin:50% 50%;
-        }
-        .g-circle::before {
-            content:"";
-            position:absolute;
-            top:6px;
-            left:6px;
-            bottom:6px;
-            right:6px;
-            background:#333;
-            border-radius:50%;
-        // z-index:1;
-        }
-        .g-circle::after {
-            content:"";
-            position:absolute;
-            width:12px;
-            height:12px;
-            top:0;
-            left:50%;
-            transform:translate(-50%,-3px);
-            border-radius:50%;
-            background:#fc0;
-            box-shadow:0 0 4px 2px #fc0;
-        }
-        @keyframes rotate {
-            100% {
-                transform:rotate(-360deg);
-            }
-        }
-        /*进度条结束*/
-
-
         .translateSelectLanguage {
             position: absolute;
             top: 20px;
@@ -291,9 +230,6 @@
 </head>
 
 <body class="page-body">
-<div class="g-container">
-    <div class="g-circle"></div>
-</div>
 <canvas id="canvas" style="position: absolute;opacity: 0.6;z-index: -1"></canvas>
     <!-- skin-white -->
     <div class="page-container">
