@@ -107,9 +107,6 @@ function loadRecommendations() {
             .catch(error => {
                 console.error('Error fetching recommendations:', error);
             });
-        translate.language.setLocal('chinese_simplified'); //设置本地语种（当前网页的语种）。如果不设置，默认自动识别当前网页显示文字的语种。 可填写如 'english'、'chinese_simplified' 等，具体参见文档下方关于此的说明。
-        translate.listener.start();
-        translate.execute();//进行翻译
         return;
     }
 
@@ -123,8 +120,7 @@ function loadRecommendations() {
 
     const lozadObserver = lozad('.lozad');
     lozadObserver.observe();
-    translate.language.setLocal('chinese_simplified'); //设置本地语种（当前网页的语种）。如果不设置，默认自动识别当前网页显示文字的语种。 可填写如 'english'、'chinese_simplified' 等，具体参见文档下方关于此的说明。
-    translate.listener.start();
+
     translate.execute();//进行翻译
 }
 
@@ -166,8 +162,6 @@ function handleSearch() {
         noResultDiv.innerHTML = '没有搜索到相关内容';
         recommendationsContainer.appendChild(noResultDiv);
     }
-    translate.language.setLocal('chinese_simplified'); //设置本地语种（当前网页的语种）。如果不设置，默认自动识别当前网页显示文字的语种。 可填写如 'english'、'chinese_simplified' 等，具体参见文档下方关于此的说明。
-    translate.listener.start();
     translate.execute();//进行翻译
 }
 
@@ -200,3 +194,4 @@ if(langs!="欢聚"){
 
 }
 document.addEventListener('DOMContentLoaded', loadRecommendations);
+translate.execute();//进行翻译
