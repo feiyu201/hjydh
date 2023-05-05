@@ -21,13 +21,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\360安全浏览器下载\dh-master\dh-master\assets\images" />
+      <recent name="D:\360安全浏览器下载\dh-master\dh-master\assets\js" />
+      <recent name="D:\360安全浏览器下载\dh-master\dh-master\assets\css" />
+      <recent name="D:\360安全浏览器下载\dh-master\dh-master" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683297283321</updated>
       <workItem from="1683297285566" duration="3520000" />
-      <workItem from="1683300967803" duration="3649000" />
+      <workItem from="1683300967803" duration="4450000" />
     </task>
     <servers />
   </component>
