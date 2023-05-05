@@ -193,5 +193,4 @@ if(langs!="欢聚"){
 }
 
 }
-translate.execute();//进行翻译
 document.addEventListener('DOMContentLoaded', loadRecommendations);
