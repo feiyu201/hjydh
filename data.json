@@ -98,6 +98,12 @@
           "url": "https://www.iconfont.cn/"
         },
         {
+          "name": "icon-icons",
+          "description": "Icon-Icons是一个拥有超过20万个多种类型图标的免费下载平台，旨在为开发者和设计师提供更多元化的资源。",
+          "logo": "https://cdn.icon-icons.com/images/icon-icons.svg",
+          "url": "https://icon-icons.com/"
+        },
+        {
           "name": "iconfinder",
           "description": "Iconfinder是一个拥有超过300万个图标和素材的在线搜索和下载平台。",
           "logo": "https://www.iconfinder.com/static/img/favicons/favicon-194x194.png?bf2736d2f8",
