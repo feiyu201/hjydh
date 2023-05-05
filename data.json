@@ -54,6 +54,11 @@
           "description": "CDNJS是一个免费的开源CDN服务，提供数千个前端资源库，加速静态资源分发。",
           "logo": "https://cdnjs.com/_/f7a2ebfb819c118086546e481876aef6.svg",
           "url": "https://cdnjs.com/"
+        },{
+          "name": "JavaScript加密",
+          "description": "JS加密/混淆/不可逆加密/压缩，保护你前端JS的安全，又提高JS的运行效率。",
+          "logo": "https://www.jsjiami.com/images/x64.png",
+          "url": "https://www.jsjiami.com/"
         }
       ]
     }
