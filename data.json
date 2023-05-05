@@ -84,6 +84,11 @@
           "description": "免费的PHP解密平台，可在线解密eval，enphp、enphpv2，phpjm等",
           "logo": "",
           "url": "https://decode.xiaojieapi.com/index.html"
+        },{
+          "name": "做好图",
+          "description": "免费在线图片转换处理",
+          "logo": "http://zuohaotu.com/favicon.ico",
+          "url": "http://zuohaotu.com/"
         }
       ]
     },
