@@ -256,7 +256,7 @@
             <footer class="main-footer sticky footer-type-1">
                 <div class="footer-inner">
                     <!-- Add your copyright text here -->
-                  
+                  <br><br>
                     <div id="ip-address-container">
                         <div class="overlay"></div>
                         <div id="ip-address"></div>
@@ -342,7 +342,7 @@
                 fetch('https://api64.ipify.org?format=json')
                     .then(response => response.json())
                     .then(data => {
-                        ipAddressDiv.innerHTML += `<br>IPV6: ${data.ip}`;
+                        ipAddressDiv.innerHTML += ` IPV6: ${data.ip}`;
                     })
                     .catch(error => {
                         console.error(error);
