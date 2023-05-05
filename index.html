@@ -333,24 +333,29 @@
         href = $(this).attr("href");
         pos = $(href).position().top - 30;
     });
+        
+        
          fetch('https://api.ipify.org?format=json')
-            .then(response => response.json())
-            .then(data => {
-                const ipAddressDiv = document.getElementById('ip-address');
-                ipAddressDiv.innerHTML = `您的IPV4: ${data.ip}`;
+  .then(response => response.json())
+  .then(dataipv4 => {
+    const ipAddressDiv = document.getElementById('ip-address');
+    ipAddressDiv.innerHTML = `IPV4: ${dataipv4.ip}`;
 
-                fetch('https://api64.ipify.org?format=json')
-                    .then(response => response.json())
-                    .then(data => {
-                        ipAddressDiv.innerHTML += `<br>IPV6: ${data.ip}`;
-                    })
-                    .catch(error => {
-                        console.error(error);
-                    });
-            })
-            .catch(error => {
-                console.error(error);
-            });
+    fetch('https://api64.ipify.org?format=json')
+      .then(response => response.json())
+      .then(dataipv6 => {
+        if (dataipv4.ip !== dataipv6.ip) { // 如果IPV6与IPV4不同，则显示IPV4
+          ipAddressDiv.innerHTML += `<br>IPV6: ${dataipv6.ip}`;
+        }
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
     </script>
     <!-- Bottom Scripts -->
     <script src="//cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
