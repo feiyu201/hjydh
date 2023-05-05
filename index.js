@@ -193,5 +193,5 @@ if(langs!="欢聚"){
 }
 
 }
-document.addEventListener('DOMContentLoaded', loadRecommendations);
 translate.execute();//进行翻译
+document.addEventListener('DOMContentLoaded', loadRecommendations);
