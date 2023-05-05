@@ -22,7 +22,7 @@ function createRecommendationItem(item) {
      if (item.logo) {
     img.setAttribute('data-src', item.logo);
   } else {
-    img.setAttribute('data-src', item.url+"favicon.ico"); // 设置默认图片路径
+    img.setAttribute('data-src', getDomain(item.url)+"favicon.ico"); // 设置默认图片路径
   }
 
   img.onerror = function() {
@@ -178,5 +178,9 @@ function smoothScroll(targetId) {
     if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth' });
     }
+}
+function getDomain(url) {
+  const parsedUrl = new URL(url);
+  return `${parsedUrl.protocol}//${parsedUrl.hostname}/`;
 }
 document.addEventListener('DOMContentLoaded', loadRecommendations);
