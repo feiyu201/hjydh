@@ -49,6 +49,11 @@
           "description": "一个静态网站托管服务，可以帮助开发者快速、轻松地将自己的网站部署到互联网上。",
           "logo": "https://surge.sh/images/logos/svg/surge-logo.svg",
           "url": "https://surge.sh/"
+        },{
+          "name": "cdnjs",
+          "description": "CDNJS是一个免费的开源CDN服务，提供数千个前端资源库，加速静态资源分发。",
+          "logo": "",
+          "url": "https://cdnjs.com/"
         }
       ]
     }
