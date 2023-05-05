@@ -72,7 +72,7 @@
         },{
           "name": "translate",
           "description": "使用极其简单。 无需任何前期准备，直接加入几行代码即可拥有多种语言全自动切换能力。",
-          "logo": "",
+          "logo": "https://cdn.sojson.com/sojson/favicon48.png",
           "url": "http://res.zvo.cn/translate/demo.html"
         },{
           "name": "一键DD脚本",
