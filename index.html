@@ -226,10 +226,144 @@
             }
         }
         /* end 小火箭 */
+
+        /*载入进度条*/
+        #progress{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #337ab7;
+            height: 100%;
+            display: block;
+        }
+        #loading{
+            background-color: #ec5858;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            margin-top: 0px;
+            top: 0px;
+        }
+        #loading-text{
+            position: absolute;
+            top:70%;
+            left: 40%;
+        }
+        #loading-text p {
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+        #loading-center{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        #loading-center-absolute {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 150px;
+            width: 250px;
+            margin-top: -25px;
+            margin-left: -75px;
+
+        }
+        .object{
+            width: 8px;
+            height: 50px;
+            margin-right:5px;
+            background-color: #FFF;
+            -webkit-animation: animate 1s infinite;
+            animation: animate 1s infinite;
+            float: left;
+        }
+
+        .object:last-child {
+            margin-right: 0px;
+        }
+
+        .object:nth-child(10){
+            -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+        }
+        .object:nth-child(9){
+            -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+        }
+        .object:nth-child(8){
+            -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+        }
+        .object:nth-child(7){
+            -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+        }
+        .object:nth-child(6){
+            -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+        }
+        .object:nth-child(5){
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+        }
+        .object:nth-child(4){
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+        .object:nth-child(3){
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+        .object:nth-child(2){
+            -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+        }
+        @-webkit-keyframes animate {
+
+            50% {
+                -ms-transform: scaleY(0);
+                -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+
+            }
+        }
+        @keyframes animate {
+            50% {
+                -ms-transform: scaleY(0);
+                -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+            }
+        }
+        /*载路进度条结束*/
     </style>
 </head>
 
 <body class="page-body">
+<article>
+    <div id="progress">
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                    <div class="object"></div>
+                </div>
+                <div id="loading-text">
+                    <p>正在进行环境载入，请耐心等待...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
 <canvas id="canvas" style="position: absolute;opacity: 0.6;z-index: -1"></canvas>
     <!-- skin-white -->
     <div class="page-container">
