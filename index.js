@@ -107,6 +107,7 @@ function loadRecommendations() {
             .catch(error => {
                 console.error('Error fetching recommendations:', error);
             });
+        translate.execute(); //进行翻译
         return;
     }
 
@@ -120,7 +121,6 @@ function loadRecommendations() {
 
     const lozadObserver = lozad('.lozad');
     lozadObserver.observe();
-    translate.listener.start();
     translate.execute(); //进行翻译
 }
 
@@ -162,7 +162,7 @@ function handleSearch() {
         noResultDiv.innerHTML = '没有搜索到相关内容';
         recommendationsContainer.appendChild(noResultDiv);
     }
-
+    translate.execute(); //进行翻译
 }
 
 
