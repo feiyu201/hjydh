@@ -184,9 +184,14 @@ function getDomain(url) {
   return `${parsedUrl.protocol}//${parsedUrl.hostname}/`;
 }
 translate.listener.renderTaskFinish = function(task){
-    var langs = translate.language.get('text');
+    var langs = translate.language.get('欢聚');
 console.log(langs);
+if(langs!="欢聚"){
     document.getElementById('search-input').style.display = 'none';
+}else{
+    document.getElementById('search-input').style.display = 'block';
+}
+
 }
 document.addEventListener('DOMContentLoaded', loadRecommendations);
 
