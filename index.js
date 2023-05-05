@@ -184,7 +184,7 @@ function getDomain(url) {
   return `${parsedUrl.protocol}//${parsedUrl.hostname}/`;
 }
 translate.listener.renderTaskFinish = function(task){
-    var langs = translate.language.get(text);
+    var langs = translate.language.get('text');
 console.log('langs');
     document.getElementById('search-input').style.display = 'none';
 }
