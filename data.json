@@ -69,6 +69,11 @@
           "description": "将音乐分成分离的人声和器乐轨道。是制作卡拉OK伴奏曲目或阿卡贝拉提取器的完美选择。使用了人工智能算法且完全免费使用。",
           "logo": "https://vocalremover.org/favicon.ico",
           "url": "https://vocalremover.org/zh/"
+        },{
+          "name": "一键DD脚本",
+          "description": "很多国外VPS只提供Linux系统,如果你想使用Windows VPS,则可以通过此脚本实现更换系统",
+          "logo": "https://git.beta.gs/usr/themes/Bubble/images/logo.png",
+          "url": "https://git.beta.gs/"
         }
       ]
     }
