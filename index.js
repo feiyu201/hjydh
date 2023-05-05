@@ -191,6 +191,5 @@ if(langs!="欢聚"){
 }else{
     document.getElementById('search-input').style.display = 'block';
 }
-
 }
 document.addEventListener('DOMContentLoaded', loadRecommendations);
