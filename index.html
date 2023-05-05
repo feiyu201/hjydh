@@ -232,8 +232,11 @@
             <footer class="main-footer sticky footer-type-1">
                 <div class="footer-inner">
                     <!-- Add your copyright text here -->
-                    <br><br>
-
+                  
+                    <div id="ip-address-container">
+                        <div class="overlay"></div>
+                        <div id="ip-address"></div>
+                    </div>
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
                     <div class="go-up">
                         <a href="#" rel="go-top">
@@ -306,6 +309,24 @@
         href = $(this).attr("href");
         pos = $(href).position().top - 30;
     });
+         fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                const ipAddressDiv = document.getElementById('ip-address');
+                ipAddressDiv.innerHTML = `您的IPV4: ${data.ip}`;
+
+                fetch('https://api64.ipify.org?format=json')
+                    .then(response => response.json())
+                    .then(data => {
+                        ipAddressDiv.innerHTML += `<br>IPV6: ${data.ip}`;
+                    })
+                    .catch(error => {
+                        console.error(error);
+                    });
+            })
+            .catch(error => {
+                console.error(error);
+            });
     </script>
     <!-- Bottom Scripts -->
     <script src="//cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
