@@ -18,9 +18,17 @@ function createRecommendationItem(item) {
     const img = document.createElement('img');
     img.classList.add('lozad', 'img-circle');
     img.width = 40;
-    if(item.logo===""){
-        item.logo=item.url+"favicon.ico";
-    }
+
+     if (item.logo) {
+    img.setAttribute('data-src', item.logo);
+  } else {
+    img.setAttribute('data-src', item.url+"favicon.ico"); // 设置默认图片路径
+  }
+
+  img.onerror = function() {
+    this.setAttribute('data-src', 'https://www.helloimg.com/images/2022/03/27/RXyWzg.th.jpg'); // 图片加载失败时使用默认图片
+  };
+
     img.setAttribute('data-src', item.logo);
     userImg.appendChild(img);
 
