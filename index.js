@@ -185,7 +185,7 @@ function getDomain(url) {
 }
 translate.listener.renderTaskFinish = function(task){
     var langs = translate.language.get('text');
-console.log('langs');
+console.log(langs);
     document.getElementById('search-input').style.display = 'none';
 }
 document.addEventListener('DOMContentLoaded', loadRecommendations);
