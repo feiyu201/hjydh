@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="viggo" />
+    <title>欢聚云导航网</title>
+    <meta name="keywords" content="设计导航,网址导航,设计资源,创意导航,创意网站导航">
+    <meta name="description" content="欢聚云导航网 - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。">
+    <link rel="shortcut icon" href="../assets/images/logo-collapsed@3x.jpg">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/xenon-core.css">
+    <link rel="stylesheet" href="../assets/css/xenon-components.css">
+    <link rel="stylesheet" href="../assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <script src="//cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../index.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    <!-- / FB Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://dh.webopen.ai/">
+    <meta property="og:title" content="欢聚云导航网 - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。">
+    <meta property="og:description" content="设计导航,网址导航,设计资源,创意导航,创意网站导航">
+    <meta property="og:image" content="http://dh.webopen.ai/assets/images/logo-collapsed@2x.png">
+    <meta property="og:site_name" content="欢聚云导航网 - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。">
+    <!-- / Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="欢聚云导航网 - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。">
+    <meta name="twitter:description" content="设计导航,网址导航,设计资源,创意导航,创意网站导航">
+    <meta name="twitter:image" content="http://dh.webopen.ai/assets/images/logo-collapsed@2x.png">
+    <style>
+        .translateSelectLanguage {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+            padding: 12px 16px;
+        }
+
+        .translateSelectLanguage:hover {
+            cursor: pointer;
+        }
+
+        .translateSelectLanguage label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .translateSelectLanguage select {
+            width: 100%;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 3px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .translateSelectLanguage button {
+            display: block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .translateSelectLanguage button:hover {
+            cursor: pointer;
+            background-color: #0062cc;
+        }
+
+
+        /*搜索框*/
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+
+        #search-input {
+            padding: 10px;
+            border: none;
+            background-color: #f2f2f2;
+            border-radius: 5px 0 0 5px;
+            font-size: 14px;
+            width: 100%;
+            margin-right: -4px;
+        }
+
+        #search-input:focus {
+            outline: none;
+        }
+
+        #search-input::placeholder {
+            color: #999;
+        }
+
+        #search-input::-webkit-input-placeholder {
+            color: #999;
+        }
+
+        #search-input::-moz-placeholder {
+            color: #999;
+        }
+
+        #search-input:-ms-input-placeholder {
+            color: #999;
+        }
+
+        #search-input:placeholder-shown {
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        #search-input:hover:placeholder-shown,
+        #search-input:focus:placeholder-shown {
+            text-overflow: initial;
+            overflow: visible;
+        }
+
+        #search-button {
+            padding: 12px 16px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 14px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        #search-button:hover {
+            background-color: #0069d9;
+        }
+        .no-result-div {
+            background-color: #f2dede;
+            color: #a94442;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+/*IP显示css*/
+          #ip-address-container {
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            opacity: 0.5;
+        }
+
+        #ip-address {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+        }
+        
+                /* 小火箭css */
+        #gotop1 {
+            width: 80px;
+            position: fixed;
+            bottom: 30px;
+            cursor: pointer;
+            z-index: 99998;
+            right: 0;
+            margin-right: 30px; /* 这里设置一个正值作为右边距 */
+        }
+
+        /* 小火箭悬停特效 */
+        #gotop1:hover {
+            animation: rubberBand 1s;
+        }
+
+        @keyframes rubberBand {
+            from {
+                transform: scale3d(1, 1, 1);
+            }
+
+            30% {
+                transform: scale3d(1.25, 0.75, 1);
+            }
+
+            40% {
+                transform: scale3d(0.75, 1.25, 1);
+            }
+
+            50% {
+                transform: scale3d(1.15, 0.85, 1);
+            }
+
+            65% {
+                transform: scale3d(.95, 1.05, 1);
+            }
+
+            75% {
+                transform: scale3d(1.05, .95, 1);
+            }
+
+            to {
+                transform: scale3d(1, 1, 1);
+            }
+        }
+        /* end 小火箭 */
+    </style>
+</head>
+
+<body class="page-body">
+<canvas id="canvas" style="position: absolute;opacity: 0.6;z-index: -1"></canvas>
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="index.html" class="logo-expanded">
+                            <img src="../assets/images/logo-collapsed@2x.png" width="100%" alt="" />
+                        </a>
+                        <a href="index.html" class="logo-collapsed">
+                            <img src="../assets/images/logo-collapsed@3x.jpg" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="user-info-menu">
+                            <i class="linecons-cog"></i>
+                        </a>
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </div>
+                </header>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="搜索关键词或URL或名字">
+                </div>
+                <ul id="main-menu" class="main-menu">
+
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- <span id="屏蔽translate"></span>-->
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="search" class="s-search mx-auto my-4">
+                <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" class="super-search-fm"> 
+                    <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="百度一下" style="outline:0" autocomplete="off"> 
+                    <button type="submit">
+                        <i style="font-size:20px;" class="linecons-search"></i>
+                    </button> 
+                </form>
+                <div class="card search-smart-tips" style="display: none"> 
+                    <ul class="card search-smart-tips-ul">
+                    </ul> 
+                </div>
+            </div>
+
+
+            <div id="recommendations-container"></div>
+
+    <br><br>
+
+
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                  <br><br>
+                    <div id="ip-address-container">
+                        <div class="overlay"></div>
+                        <div id="ip-address"></div>
+                    </div>
+                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="fa-angle-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div id="shangxia2">
+				<span id="gotop1">
+					<img src="../assets/images/xhjimg/huojian.svg" alt="返回顶部小火箭">
+                    <!-- <img src="img/rocked.png" alt="返回顶部小火箭"> -->
+				</span>
+</div>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
+            } else {
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+        
+        
+         fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(dataipv4 => {
+    const ipAddressDiv = document.getElementById('ip-address');
+    ipAddressDiv.innerHTML = `您的IPV4: ${dataipv4.ip}`;
+
+    fetch('https://api64.ipify.org?format=json')
+      .then(response => response.json())
+      .then(dataipv6 => {
+        if (dataipv4.ip !== dataipv6.ip) { // 如果IPV6与IPV4不同，则显示IPV4
+          ipAddressDiv.innerHTML += `<br>您的IPV6: ${dataipv6.ip}`;
+        }
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="//cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <script src="../assets/js/TweenMax.min.js"></script>
+    <script src="../assets/js/resizeable.js"></script>
+    <script src="../assets/js/joinable.js"></script>
+    <script src="../assets/js/xenon-api.js"></script>
+    <script src="../assets/js/xenon-toggles.js"></script>
+    <!-- JavaScripts initializations and stuff -->
+    <script src="../assets/js/xenon-custom.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script type="text/javascript" src="../assets/js/canvas.js"></script>
+    <script src="http://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+    <script>
+    /* 选择你喜欢的速度类型，复制下面的某段代码即可。不明处请咨询：qpjk.cc */
+        $(function() {
+
+            // 默认速度
+            $("#gotop6").click(function() {
+                TweenMax.to(window, 1, {scrollTo:0});
+            });
+
+
+            // 弹跳球式滚动底部 .box2是要滚动地方的id或者锚点
+            $("#gotop5").click(function() {
+                TweenMax.to(window, 2, {scrollTo:".box2", ease:Bounce.easeOut});
+            });
+
+
+            // 返回顶部，绑定gotop1图标和gotop2文字事件
+            $("#gotop1,#gotop2").click(function(e) {
+                TweenMax.to(window, 1.5, {scrollTo:0, ease: Expo.easeInOut});
+                var huojian = new TimelineLite();
+                huojian.to("#gotop1", 1, {rotationY:720, scale:0.6, y:"+=40", ease:  Power4.easeOut})
+                    .to("#gotop1", 1, {y:-1000, opacity:0, ease:  Power4.easeOut}, 0.6)
+                    .to("#gotop1", 1, {y:0, rotationY:0, opacity:1, scale:1, ease: Expo.easeOut, clearProps: "all"}, "1.4");
+            });
+
+
+            // 以1秒慢快慢的速度滚动顶部
+            $("#gotop3").click(function() {
+                TweenMax.to(window, 1, {scrollTo:0, ease:Expo.easeInOut});
+            });
+
+            // 以1.5秒快慢快的速度滚动顶部
+            $("#gotop4").click(function() {
+                TweenMax.to(window, 1.5, {scrollTo:0, ease:SlowMo.ease.config(0.7, 0.7, false)});
+            });
+
+        });
+    </script>
+</body>
+</html>
