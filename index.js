@@ -25,11 +25,10 @@ function createRecommendationItem(item) {
     img.setAttribute('data-src', getDomain(item.url)+"favicon.ico"); // 设置默认图片路径
   }
 
-  img.onerror = function() {
+    img.setAttribute('data-src', item.logo);
+    img.onerror = function() {
     this.setAttribute('data-src', 'https://www.helloimg.com/images/2022/03/27/RXyWzg.th.jpg'); // 图片加载失败时使用默认图片
   };
-
-    img.setAttribute('data-src', item.logo);
     userImg.appendChild(img);
 
     const comment = document.createElement('div');
