@@ -71,7 +71,7 @@ body{
 	left: 350px;
 	width: 246px;
 	height: 179px;
-	background-image: url(../assets/imgaes/bubble.png);
+	background-image: url(../imgaes/bubble.png);
 	background-repeat: no-repeat;
 	text-align: center;
 }
@@ -185,7 +185,7 @@ body{
 	left: -8px;
 	width: 330px;
 	height: 330px;
-	background: url(../assets/imgaes/sign.png) no-repeat;
+	background: url(../imgaes/sign.png) no-repeat;
 	transform-origin: left bottom;
 	transform: rotate(17deg);
 }
