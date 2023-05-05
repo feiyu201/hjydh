@@ -22,7 +22,7 @@ function createRecommendationItem(item) {
      if (item.logo) {
     img.setAttribute('data-src', item.logo);
   } else {
-      item.logo=getDomain(item.url)+"favicon.ico"
+      item.logo=getDomain(item.url)+"favicon.ico";
     img.setAttribute('data-src', item.logo); // 设置默认图片路径
   }
 
