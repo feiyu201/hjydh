@@ -41,7 +41,7 @@
         },
         {
           "name": "Surge 一键脚本",
-          "description": "此脚本直接菜单选择,快捷方便!一个静态网站托管服务，可以帮助开发者快速、轻松地将自己的网站部署到互联网上。",
+          "description": "此脚本直接菜单选择,快捷方便!一个静态网站托管服务，轻松地将自己的网站部署到互联网上。",
           "logo": "https://cn.bing.com/th?id=OHR.GoldenDragon_ZH-CN9908231664_1920x1080.jpg",
           "url": "https://surge-shell.surge.sh/"
         }
