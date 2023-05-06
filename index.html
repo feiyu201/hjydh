@@ -273,7 +273,8 @@
             <div class="footer-inner">
                 <!-- Add your copyright text here -->
                 <br><br>
-                <div>
+                <div id="ip-address-container">
+                    <div class="overlay"></div>
                     <div id="ip-address"></div>
                 </div>
                 <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
@@ -359,7 +360,7 @@
                 .then(response => response.json())
                 .then(dataipv6 => {
                     if (dataipv4.ip !== dataipv6.ip) { // 如果IPV6与IPV4不同，则显示IPV4
-                        ipAddressDiv.innerHTML += `,IPV6: ${dataipv6.ip}`;
+                        ipAddressDiv.innerHTML += `<br>您的IPV6: ${dataipv6.ip}`;
                     }
                 })
                 .catch(error => {
