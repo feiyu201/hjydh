@@ -6402,10 +6402,11 @@ button.toast-close-button {
     -ms-filter: alpha(Opacity=70);
     filter: alpha(opacity=70)
 }
-
+/*#2c2e2f73
+#2c2e2f*/
 .xe-widget.xe-conversations {
     position: relative;
-    background: #2c2e2f;;
+    background: #2c2e2f73;;
     margin-bottom: 0px;
     padding: 15px
 }
