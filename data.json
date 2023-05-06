@@ -100,11 +100,12 @@
           "description": "永久免费图床 专业图片上传 永久外链 全球CDN分发。",
           "logo": "https://www.hualigs.cn/favicon.ico?v=2.1.6",
           "url": "https://www.hualigs.cn/"
-        },{
-          "name": "我要自学网",
-          "description": "免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训",
-          "logo": "https://www.51zxw.net/favicon.ico",
-          "url": "https://www.51zxw.net/"
+        },
+        {
+          "name": "1panel",
+          "description": "1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。服务器运维软件,服务器运维管理面板,免费主机管理系统,开源主机管理系统,Linux 面板,开源 Linux 面板,面板",
+          "logo": "https://1panel.cn/img/favicon.png",
+          "url": "https://1panel.cn/"
         }
       ]
     },
@@ -123,6 +124,11 @@
           "description": "国内最专业最权威的实时网站测速、服务器监控、网络监控、IDC质量评测、PING,DNS,HTTP,CDN测试网站速度监控，遍及国内各省和国外的监测点，包括电信、网通、联通、移动、长城宽带、教育网等线路，测试网站在全国各地和海外的打开速度，全面的报表功能、对比功能、地图展示、柱型图展示等专业测速网站",
           "logo": "https://www.17ce.com/smedia/images/favicon.ico",
           "url": "https://www.17ce.com/"
+        },{
+          "name": "我要自学网",
+          "description": "免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训",
+          "logo": "https://www.51zxw.net/favicon.ico",
+          "url": "https://www.51zxw.net/"
         }
       ]
     },
