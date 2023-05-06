@@ -273,8 +273,6 @@
             <div class="footer-inner">
                 <!-- Add your copyright text here -->
                 <br><br>
-                <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tx&skin=pitaya" frameborder="0" width="100%"
-                        height="30" allowtransparency="true" style="background-color: white;"></iframe>
                 <div id="ip-address-container">
                     <div class="overlay"></div>
                     <div id="ip-address"></div>
@@ -362,7 +360,7 @@
                 .then(response => response.json())
                 .then(dataipv6 => {
                     if (dataipv4.ip !== dataipv6.ip) { // 如果IPV6与IPV4不同，则显示IPV4
-                        ipAddressDiv.innerHTML += `<br>您的IPV6: ${dataipv6.ip}`;
+                        ipAddressDiv.innerHTML += `,IPV6: ${dataipv6.ip}`;
                     }
                 })
                 .catch(error => {
