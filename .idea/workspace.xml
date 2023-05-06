@@ -12,6 +12,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2PNUxvXWMBZZ3UthUApaxljoVsS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683297283321</updated>
       <workItem from="1683297285566" duration="3520000" />
-      <workItem from="1683300967803" duration="10307000" />
+      <workItem from="1683300967803" duration="11098000" />
     </task>
     <servers />
   </component>
