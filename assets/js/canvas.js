@@ -8,7 +8,7 @@ function main(){
 	totalIterations = Math.floor(duration / frameDuration),
 	maxBaseSize = 100,
 	baseSizeSpeed = 0.02;
-	debugger;
+	//debugger;
 	var canvas = document.getElementById("canvas"),
 	ctx = canvas.getContext("2d"),
 	canvasWidth = document.documentElement.clientWidth,
