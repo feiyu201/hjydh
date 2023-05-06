@@ -38,6 +38,12 @@
           "description": "绿色地址你懂得",
           "logo": "",
           "url": "https://github.webopen.ai/"
+        },
+        {
+          "name": "Surge 一键脚本",
+          "description": "此脚本直接菜单选择,快捷方便!一个静态网站托管服务，可以帮助开发者快速、轻松地将自己的网站部署到互联网上。",
+          "logo": "https://cn.bing.com/th?id=OHR.GoldenDragon_ZH-CN9908231664_1920x1080.jpg",
+          "url": "https://surge-shell.surge.sh/"
         }
       ]
     },{
@@ -99,6 +105,42 @@
           "description": "免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训",
           "logo": "https://www.51zxw.net/favicon.ico",
           "url": "https://www.51zxw.net/"
+        }
+      ]
+    },
+    {
+      "id": "实用网址导航",
+      "title": "实用网址导航",
+      "items": [
+        {
+          "name": "cloudflare",
+          "description": "Cloudflare 是一家全球领先的互联网安全公司，提供 CDN、DDoS 防护、DNS 管理等网络服务，并通过其强大的基础设施和技术帮助客户保障网站的安全性、可靠性和性能。简称(CF)",
+          "logo": "https://images2.imgbox.com/48/92/vkcMyiue_o.png",
+          "url": "https://dash.cloudflare.com/"
+        },
+        {
+          "name": "17CE测速",
+          "description": "国内最专业最权威的实时网站测速、服务器监控、网络监控、IDC质量评测、PING,DNS,HTTP,CDN测试网站速度监控，遍及国内各省和国外的监测点，包括电信、网通、联通、移动、长城宽带、教育网等线路，测试网站在全国各地和海外的打开速度，全面的报表功能、对比功能、地图展示、柱型图展示等专业测速网站",
+          "logo": "https://www.17ce.com/smedia/images/favicon.ico",
+          "url": "https://www.17ce.com/"
+        },
+        {
+          "name": "iconfinder",
+          "description": "Iconfinder是一个拥有超过300万个图标和素材的在线搜索和下载平台。",
+          "logo": "https://www.iconfinder.com/static/img/favicons/favicon-194x194.png?bf2736d2f8",
+          "url": "https://www.iconfinder.com/"
+        },
+        {
+          "name": "Iconmonstr",
+          "description": "Iconmonstr是一个提供免费图标的在线平台，拥有超过4500个简单而精美的矢量图标",
+          "logo": "https://iconmonstr.com/wp-content/themes/iconmonstr/assets/ico/2.0.0/favicon.ico",
+          "url": "https://iconmonstr.com/"
+        },
+        {
+          "name": "iconarchive",
+          "description": "IconArchive是一个免费图标下载网站，提供丰富的高质量图标素材和分类，满足各种需求。",
+          "logo": "https://static.iconarchive.com/static/images/logo.svg",
+          "url": "https://www.iconarchive.com/"
         }
       ]
     },
