@@ -134,6 +134,11 @@
           "description": "jQuery,jQuery特效,jQuery ui,jQuery插件,jQuery 教程,css3,网页特效,JS特效",
           "logo": "https://images2.imgbox.com/95/eb/eFBvjh1G_o.png",
           "url": "https://www.jq22.com/"
+        },{
+          "name": "ping.pe",
+          "description": "一个在线的网络工具，可以用于测试目标主机的可达性、延迟和丢包率等指标!",
+          "logo": "https://cn.bing.com/th?id=OHR.TortulaMoss_ZH-CN8695265186_1920x1080.jpg",
+          "url": "https://port.ping.pe/"
         }
       ]
     },
