@@ -57,6 +57,8 @@
       <workItem from="1683297285566" duration="3520000" />
       <workItem from="1683300967803" duration="13802000" />
       <workItem from="1683401813674" duration="15471000" />
+      <workItem from="1683509985175" duration="672000" />
+      <workItem from="1683511858986" duration="42000" />
     </task>
     <servers />
   </component>
@@ -72,9 +74,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="161" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683404990541" />
-    <state x="677" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1683401838457">
+    <state x="677" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1683511858561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683401838457" />
+    <state x="677" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683511858561" />
   </component>
 </project>

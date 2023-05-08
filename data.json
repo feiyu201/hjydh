@@ -106,6 +106,12 @@
           "description": "1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。服务器运维软件,服务器运维管理面板,免费主机管理系统,开源主机管理系统,Linux 面板,开源 Linux 面板,面板",
           "logo": "https://1panel.cn/img/favicon.png",
           "url": "https://1panel.cn/"
+        },
+        {
+          "name": "爱资料工具网",
+          "description": "爱资料在线工具,工具,在线工具箱,为开发运维提供全面的在线工具箱,已开发工具400款,包含开发工具,运维工具,常用工具,SEO站长工具等,是好用,方便的在线工具网站.",
+          "logo": "",
+          "url": "https://www.toolnb.com/"
         }
       ]
     },
