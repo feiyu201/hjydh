@@ -56,9 +56,14 @@
           "logo": "https://surge.sh/images/logos/svg/surge-logo.svg",
           "url": "https://surge.sh/"
         },{
+          "name": "录屏",
+          "description": "是一个在线屏幕录制工具，它通过浏览器提供屏幕录制的功能,支持全屏支持浏览器标签或窗口。",
+          "logo": "https://cdnjs.com/_/f7a2ebfb819c118086546e481876aef6.svg",
+          "url": "https://recordscreen.io/"
+        },{
           "name": "cdnjs",
           "description": "CDNJS是一个免费的开源CDN服务，提供数千个前端资源库，加速静态资源分发。",
-          "logo": "https://cdnjs.com/_/f7a2ebfb819c118086546e481876aef6.svg",
+          "logo": "https://recordscreen.io/images/logo.png",
           "url": "https://cdnjs.com/"
         },{
           "name": "JavaScript加密",
